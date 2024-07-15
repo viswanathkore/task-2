@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>viswanath</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>About Me</h2>
+                    <p class="tagline">I'm viswanath a web developer</p>
+                    <p>Experienced web developer skilled in front-end and back-end technologies, with a passion for creating responsive and user-friendly applications. Proficient in HTML, CSS, JavaScript, and various frameworks, dedicated to delivering high-quality code and exceptional user experiences."</p>
+                    <a href="#contact" class="btn">Hire Me</a>
+                    <a href="#projects" class="btn btn-secondary">Projects</a>
+                </div>
+                <img src="/assets/profile.jpg" alt="Your Image" class="profile-image">
+            </div>
+        </section>
+
+        <section id="projects" class="container">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>E-Commerce Website
+                </h3>
+                <p>Developed a responsive e-commerce site with React and Node.js, featuring secure user authentication, a robust shopping cart, and Stripe payment integration.
+                </p>
+            </div>
+            <div class="project">
+                <h3>Portfolio Website
+                </h3>
+                <p>Created a sleek, responsive portfolio site using HTML, CSS, and JavaScript, showcasing projects and skills, with a PHP/MySQL contact form for client inquiries.</p>
+            </div>
+            <div class="project">
+                <h3>Temperature Converter
+
+                </h3>
+                <p>Developed a temperature converter application using HTML, CSS, and JavaScript that allows users to convert between Celsius, Fahrenheit, and Kelvin. The app features a clean, intuitive UI and provides instant conversion results.</p>
+            </div>
+                </h3>
+
+           
+        </section>
+
+        <section id="contact" class="container">
+            <h2>Contact Me</h2>
+            <form action="mailto:yourname@example.com" method="post" enctype="text/plain">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 viswanath. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
